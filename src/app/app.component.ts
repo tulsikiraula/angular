@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'myfirstapp';
+  appstats:boolean = true;
+  title = ' tk';
+  appList : any []= [
+
+    {"id":"1", "name":"tulsi"},
+
+    {"id":"2", "name":"amit"}
+  ]
 }
